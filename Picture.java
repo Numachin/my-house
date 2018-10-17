@@ -66,12 +66,19 @@ public class Picture
         roof.moveVertical(-60);
         roof.makeVisible();
         
-        for (pos=80;pos>=-140;pos--) {
-            sun.slowMoveVertical(-1);
+
+      
+       {
+            sun.slowMoveVertical(-100);
             
         }
     }
-
+    public void atardecer()
+    {
+    sun.slowMoveVertical(100);  
+    }
+    
+    
     /**
      * Change this picture to black/white display
      */
